@@ -36,12 +36,12 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="relative w-full bg-black py-32 md:py-48 text-white border-t border-white/10">
+    <section id="contact" className="relative w-full bg-black py-16 md:py-48 text-white">
       <div className="max-w-[90rem] mx-auto px-6 md:px-12">
 
         {/* Centered Top Header */}
-        <div className="flex flex-col items-center justify-center text-center mb-16 md:mb-24">
-          <p className="text-[#FFBF00] text-xs font-bold tracking-[0.3em] uppercase mb-6">
+        <div className="flex flex-col items-center justify-center text-center mb-12 md:mb-24">
+          <p className="text-[#FFBF00] text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase mb-4 md:mb-6">
             Contact
           </p>
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[0.9] text-white flex flex-wrap justify-center gap-x-4">
@@ -50,14 +50,14 @@ export default function Contact() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 lg:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8">
 
           {/* Contact Information Area */}
-          <div className="lg:col-span-5 flex flex-col space-y-16">
+          <div className="lg:col-span-5 flex flex-col space-y-12 lg:space-y-16">
 
             <div className="group">
-              <h3 className="text-[#FFBF00] text-xs font-bold tracking-[0.3em] uppercase mb-6">Headquarters</h3>
-              <p className="text-2xl sm:text-3xl font-medium tracking-tight leading-[1.3] text-white/90">
+              <h3 className="text-[#FFBF00] text-xs font-bold tracking-[0.3em] uppercase mb-4 md:mb-6">Headquarters</h3>
+              <p className="text-xl sm:text-2xl md:text-3xl font-medium tracking-tight leading-[1.4] md:leading-[1.3] text-white/90">
                 SHIELD FOUNDATION<br />
                 <span className="text-white/50">
                   418/5A2, Ezhumalayan Nagar,<br />
@@ -78,7 +78,7 @@ export default function Contact() {
               </a>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12">
               <div>
                 <h3 className="text-[#FFBF00] text-xs font-bold tracking-[0.3em] uppercase mb-4">Phone</h3>
                 <p className="text-xl font-medium tracking-tight text-white/80">6383539385</p>
@@ -92,7 +92,7 @@ export default function Contact() {
 
             <div>
               <h3 className="text-[#FFBF00] text-xs font-bold tracking-[0.3em] uppercase mb-4">Email</h3>
-              <a href="mailto:SHIELDFOUNDATION.DGL@GMAIL.COM" className="text-xl md:text-2xl font-bold tracking-tight text-white/80 hover:text-white transition-colors hover:underline underline-offset-8">
+              <a href="mailto:SHIELDFOUNDATION.DGL@GMAIL.COM" className="text-lg md:text-2xl font-bold tracking-tight text-white/80 hover:text-white transition-colors hover:underline underline-offset-4 md:underline-offset-8 break-all">
                 SHIELDFOUNDATION.DGL@GMAIL.COM
               </a>
             </div>
@@ -160,10 +160,10 @@ export default function Contact() {
                 disabled={submitted}
                 className="group inline-flex items-center gap-4 text-white hover:text-[#FFBF00] transition-colors self-start pb-2 border-b-2 border-transparent hover:border-[#FFBF00]"
               >
-                <span className="text-xl font-bold tracking-[0.1em] uppercase">
+                <span className="text-lg md:text-xl font-bold tracking-[0.1em] uppercase">
                   {submitted ? 'MESSAGE SENT' : 'SEND MESSAGE'}
                 </span>
-                <ArrowRight className={`w-6 h-6 transition-transform ${submitted ? 'translate-x-4 text-[#FFBF00]' : 'group-hover:translate-x-2'}`} />
+                <ArrowRight className={`w-5 h-5 md:w-6 md:h-6 transition-transform ${submitted ? 'translate-x-4 text-[#FFBF00]' : 'group-hover:translate-x-2'}`} />
               </button>
             </form>
           </div>

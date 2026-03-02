@@ -41,12 +41,12 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative w-full bg-black py-32 md:py-48 text-white">
+    <section id="projects" className="relative w-full bg-black py-16 md:py-48 text-white">
       <div className="max-w-[90rem] mx-auto px-6 md:px-12">
 
         {/* Centered Top Header */}
-        <div className="flex flex-col items-center justify-center text-center mb-16 md:mb-24">
-          <p className="text-[#FFBF00] text-xs font-bold tracking-[0.3em] uppercase mb-6">
+        <div className="flex flex-col items-center justify-center text-center mb-12 md:mb-24">
+          <p className="text-[#FFBF00] text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase mb-4 md:mb-6">
             Shield Group
           </p>
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[0.9] text-white flex flex-wrap justify-center gap-x-4">
@@ -56,11 +56,11 @@ export default function Projects() {
         </div>
 
         {/* Minimal Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-24 gap-x-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 md:gap-y-24 gap-x-12">
           {projects.map((project, index) => (
             <div key={index} className={`group relative ${project.status === 'UPCOMING' ? 'opacity-50 hover:opacity-100 transition-opacity duration-500' : ''}`}>
-              <div className="flex items-center gap-4 mb-6">
-                <span className="block text-[#FFBF00] text-3xl md:text-4xl font-bold tracking-tighter group-hover:translate-x-3 transition-transform duration-500">
+              <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
+                <span className="block text-[#FFBF00] text-2xl md:text-3xl lg:text-4xl font-bold tracking-tighter group-hover:translate-x-3 transition-transform duration-500">
                   {project.number}
                 </span>
                 {project.status === 'UPCOMING' && (
@@ -70,11 +70,11 @@ export default function Projects() {
                 )}
               </div>
 
-              <h3 className="text-3xl md:text-4xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-white mb-4 md:mb-6 leading-[1.2] md:leading-[1.1]">
                 {project.title}
               </h3>
 
-              <p className="text-xl text-white/50 font-medium leading-[1.4] max-w-sm">
+              <p className="text-base sm:text-lg md:text-xl text-white/50 font-medium leading-[1.5] md:leading-[1.4] max-w-sm">
                 {project.description}
               </p>
             </div>

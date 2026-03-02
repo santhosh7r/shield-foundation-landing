@@ -4,7 +4,7 @@ const projects = [
   {
     number: '01',
     logo: null,
-    title: 'REHABILITATION & DE-ADDICTION',
+    title: 'DE-ADDICTION & REHABILITATION',
     description: 'Operating rehabilitation centres and clinics providing therapeutic treatments, counselling, and aftercare.',
     status: 'ACTIVE'
   },

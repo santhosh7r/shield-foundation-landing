@@ -55,8 +55,8 @@ export default function Leadership() {
 
             {/* Brutalist Quote Block */}
             <div className="mb-8 md:mb-12">
-              <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium tracking-tight leading-[1.3] md:leading-[1.2] text-white">
-                "Life isn't just about finding yourself; it’s about engineering the best version of yourself."
+              <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium tracking-tight leading-[1.3] md:leading-[1.2] text-white uppercase">
+                "LIFE ISN'T JUST ABOUT FINDING YOURSELF; IT'S ABOUT ENGINEERING THE BEST VERSION OF YOURSELF."
               </p>
             </div>
 

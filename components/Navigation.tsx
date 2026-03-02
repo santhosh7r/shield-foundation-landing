@@ -38,12 +38,12 @@ export default function Navigation({ isScrolled }: NavigationProps) {
           {/* Logo Area */}
           <Link
             href="#home"
-            className="flex items-center z-[110] h-full py-1.5 md:py-2"
+            className="flex items-center z-[110] h-full py-0"
             onClick={() => setIsOpen(false)}
           >
             {/* Logo Image */}
-            <div className="h-full flex items-center justify-center overflow-hidden rounded-md group">
-              <img src="/logo.jpeg" alt="Shield Foundation Logo" className="h-full w-auto object-contain" />
+            <div className="h-full flex items-center justify-center rounded-md group">
+              <img src="/logo.jpg" alt="Shield Foundation Logo" className="h-full w-auto object-contain scale-[1.1] md:scale-[1.25] origin-left" />
             </div>
           </Link>
 

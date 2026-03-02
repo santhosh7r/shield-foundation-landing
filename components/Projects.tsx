@@ -17,30 +17,30 @@ const projects = [
   },
   {
     number: '03',
-    logo: null,
-    title: 'OLD AGE HOMES & GERIATRIC',
-    description: 'Premium senior citizen homes providing assisted living, palliative care, and 24/7 nursing support.',
+    logo: '/catering.png',
+    title: 'FOOD SUPPLY & CATERING',
+    description: 'Supply of quality food, beverages, and nutrition services to institutions and care centres.',
     status: 'ACTIVE'
   },
   {
     number: '04',
+    logo: null,
+    title: 'OLD AGE HOMES & GERIATRIC',
+    description: 'Premium senior citizen homes providing assisted living, palliative care, and 24/7 nursing support.',
+    status: 'UPCOMING'
+  },
+  {
+    number: '05',
     logo: null,
     title: 'CHILDREN\'S HOMES & ORPHANAGES',
     description: 'Managing homes and foster care to provide shelter, healthcare, and holistic education.',
     status: 'UPCOMING'
   },
   {
-    number: '05',
+    number: '06',
     logo: null,
     title: 'HEALTHCARE & WELLNESS',
     description: 'Providing mental health consultancy and stress management wellness programs.',
-    status: 'UPCOMING'
-  },
-  {
-    number: '06',
-    logo: null,
-    title: 'FOOD SUPPLY & CATERING',
-    description: 'Supply of quality food, beverages, and nutrition services to institutions and care centres.',
     status: 'UPCOMING'
   },
 ];

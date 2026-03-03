@@ -33,7 +33,7 @@ export default function Leadership() {
 
               {/* Founder Image */}
               <img
-                src="/founder.png"
+                src="/founder.PNG"
                 alt="Founder & Director"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

@@ -1,9 +1,11 @@
 'use client';
 
+import Image from 'next/image';
+
 const projects = [
   {
     number: '01',
-    logo: null,
+    logo: '/logo.jpg',
     title: 'DE-ADDICTION & REHABILITATION',
     description: 'Operating rehabilitation centres and clinics providing therapeutic treatments, counselling, and aftercare.',
     status: 'ACTIVE'

@@ -9,7 +9,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Shield Foundation - Social Impact',
   description: 'Shield Foundation - Rehabilitation, Healthcare, Care Homes & Community Upliftment. Structured care network delivering compassionate services.',
-  generator: 'v0.app',
   icons: {
     icon: '/logo1.jpeg',
     apple: '/logo1.jpeg',

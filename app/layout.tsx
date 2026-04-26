@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   description: 'Shield Foundation - Rehabilitation, Healthcare, Care Homes & Community Upliftment. Structured care network delivering compassionate services.',
   generator: 'v0.app',
   icons: {
-    icon: '/logo.jpeg',
-    apple: '/logo.jpeg',
+    icon: '/logo1.jpeg',
+    apple: '/logo1.jpeg',
   },
 }
 

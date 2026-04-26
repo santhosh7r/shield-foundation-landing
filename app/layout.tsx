@@ -13,6 +13,24 @@ export const metadata: Metadata = {
     icon: '/logo1.jpeg',
     apple: '/logo1.jpeg',
   },
+  openGraph: {
+    title: 'Shield Foundation - Social Impact',
+    description: 'Shield Foundation - Rehabilitation, Healthcare, Care Homes & Community Upliftment.',
+    images: [
+      {
+        url: '/logo1.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Shield Foundation Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Shield Foundation - Social Impact',
+    description: 'Shield Foundation - Rehabilitation, Healthcare, Care Homes & Community Upliftment.',
+    images: ['/logo1.jpeg'],
+  },
 }
 
 export default function RootLayout({

@@ -5,7 +5,7 @@ import Image from 'next/image';
 const projects = [
   {
     number: '01',
-    logo: '/logo.jpg',
+    logo: '/logo1.jpeg',
     title: 'DE-ADDICTION & REHABILITATION',
     description: 'Operating rehabilitation centres and clinics providing therapeutic treatments, counselling, and aftercare.',
     status: 'ACTIVE'

@@ -43,7 +43,7 @@ export default function Navigation({ isScrolled }: NavigationProps) {
           >
             {/* Logo Image */}
             <div className="h-full flex items-center justify-center rounded-md group">
-              <img src="/logo.jpg" alt="Shield Foundation Logo" className="h-full w-auto object-contain scale-[1.1] md:scale-[1.25] origin-left" />
+              <img src="/logo1.jpeg" alt="Shield Foundation Logo" className="h-full w-auto object-contain scale-[1.1] md:scale-[1.25] origin-left" />
             </div>
           </Link>
 
